@@ -1,0 +1,14 @@
+// A Kotlin/Java build.gradle library that will be extended by all modules that does not contain
+// the Android framework
+
+apply plugin: 'java-library'
+apply plugin: 'org.jetbrains.kotlin.jvm'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies{
+
+}
