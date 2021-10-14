@@ -57,4 +57,6 @@ dependencies {
     implementation(Compose.hiltNavigation)
 
     implementation(Google.material)
+
+    testImplementation(Junit.junit4)
 }
